@@ -1,4 +1,4 @@
-class TodolistController < ApplicationController
+class TodolistsController < ApplicationController
   
   def new
     @list = List.new
